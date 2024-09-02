@@ -26,7 +26,7 @@ docker build -t tech_radar .
 ### 3. Run the Docker Container
 
 ```bash
-docker run -d -p 8000:8000 tech_radar
+docker run -p 8000:8000 tech_radar
 ```
 
 ### 4. Access the Application
