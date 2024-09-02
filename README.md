@@ -13,7 +13,7 @@ Follow these steps to get the application up and running:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-repository/tech_radar_backend.git
+git clone https://github.com/tutuevm/tech_radar_backend.git
 cd tech_radar_backend
 ```
 
