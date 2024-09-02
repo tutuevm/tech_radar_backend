@@ -14,7 +14,7 @@ COPY requirements/requirements.txt ./requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . /tech_radar_backend
-RUN mkdir -p /tech_radar_backend/db
+
 
 WORKDIR /tech_radar_backend/src
 
