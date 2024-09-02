@@ -17,13 +17,13 @@ class AuthSettings(BaseModel):
 
 class RadarSettings(BaseModel):
     RADIUS: int = 400
-    LEVEL_RANGES = {
+    LEVEL_RANGES: dict = {
         "Adopt": [30, 60, 80],
         "Trial": [120, 150, 180],
         "Assess": [200, 250, 300],
         "Hold": [310, 360, 400],
     }
-    QUARTER_RANGES = {
+    QUARTER_RANGES: dict = {
         "Languages and frameworks": [pi, 3 * pi / 2],
         "Data management": [3 * pi / 2, 2 * pi],
         "Tools": [pi / 2, pi],
