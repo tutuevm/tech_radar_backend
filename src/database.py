@@ -4,7 +4,7 @@ from sqlalchemy.orm import DeclarativeBase
 from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker, AsyncSession
 
 
-DB_URL = "sqlite+aiosqlite:///./tech_radar.db"
+DB_URL = "sqlite+aiosqlite:///./db/tech_radar.db"
 
 
 async_engine = create_async_engine(DB_URL)
